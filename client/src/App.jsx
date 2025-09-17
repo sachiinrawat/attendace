@@ -11,11 +11,11 @@ export default function App() {
     <>
       <Navbar />
       <Routes>
+        <Route path="/" element={<LoginSelection />} />
         <Route path="/login" element={<FormLogin />} />
         <Route path="/student-login" element={<StudentLogin />} />
         <Route path="/teacher-login" element={<TeacherLogin />} />
       </Routes>
-      {/* <LoginSelection /> */}
     </>
   )
 }

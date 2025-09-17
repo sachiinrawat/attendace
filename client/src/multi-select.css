@@ -1,0 +1,29 @@
+/* Multi-select group for TeacherLogin */
+.multi-select-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.multi-select-option {
+  background: #181818;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: background 0.2s, border 0.2s;
+}
+.multi-select-option input[type="checkbox"] {
+  accent-color: #ab3537;
+}
+.multi-select-option:hover {
+  background: #232323;
+  border: 1px solid #ab3537;
+}
