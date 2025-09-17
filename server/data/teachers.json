@@ -1,0 +1,16 @@
+{
+  "teachers": [
+    {
+      "name": "John Doe",
+      "phone": "1234567890"
+    },
+    {
+      "name": "Jane Smith",
+      "phone": "0987654321"
+    },
+    {
+      "name": "Bob Wilson",
+      "phone": "5555555555"
+    }
+  ]
+}
