@@ -1,3 +1,68 @@
+/* Teacher Login Section */
+.teacher-login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.teacher-login-container {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+  border-radius: 20px;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  border: 1px solid #333;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.teacher-login-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: #222;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  margin-bottom: 0.25rem;
+}
+
+.teacher-login-btn {
+  width: 100%;
+  padding: 0.9rem 0;
+  background: #ab3537;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.teacher-login-btn:hover {
+  background: #ff3b3b;
+}
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
 
 * {
